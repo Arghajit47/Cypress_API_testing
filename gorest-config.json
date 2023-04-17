@@ -1,0 +1,27 @@
+{
+  "accesstoken": "6a584723989375462047d72ec49f0822d13ee976676d78da9c72e3050369c637",
+  "lastName": "arghajit",
+  "firstName": "api",
+  "middleName": "singha",
+  "BaseUrl": "https://gorest.co.in/public/v2/users",
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 30000,
+  "defaultCommandTimeout": 50000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/GoRest-API-Testing-Report",
+    "charts": true,
+    "reportPageTitle": "GoRest-API-Testing-Result"
+  },
+  "testFiles": [
+    "GoRest API Testing/getUser.spec.js",
+    "GoRest API Testing/postUser.spec.js",
+    "GoRest API Testing/putUser.spec.js",
+    "GoRest API Testing/patchUser.spec.js",
+    "GoRest API Testing/deleteUser.spec.js"
+  ]
+}

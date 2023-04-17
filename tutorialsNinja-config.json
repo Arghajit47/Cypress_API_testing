@@ -1,0 +1,27 @@
+{
+  "tutorialsNinjaUrl": "http://tutorialsninja.com/demo/index.php",
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 30000,
+  "defaultCommandTimeout": 50000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/TutorialsNinja-API-Testing-Report",
+    "charts": true,
+    "reportPageTitle": "TutorialsNinja-API-Testing-Result"
+  },
+  "testFiles": [
+    "TutorialsNinja WebApp/GetHomePage.spec.js",
+    "TutorialsNinja WebApp/GetDesktop.spec.js",
+    "TutorialsNinja WebApp/GetLaptop.spec.js",
+    "TutorialsNinja WebApp/GetComponents.spec.js",
+    "TutorialsNinja WebApp/GetTablets.spec.js",
+    "TutorialsNinja WebApp/GetSoftware.spec.js",
+    "TutorialsNinja WebApp/GetCameras.spec.js",
+    "TutorialsNinja WebApp/GetMP3Players.spec.js",
+    "TutorialsNinja WebApp/GetAboutUs.spec.js"
+  ]
+}

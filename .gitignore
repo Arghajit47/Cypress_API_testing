@@ -1,0 +1,6 @@
+node_modules
+cypress/GoRest-API-Testing-Report
+cypress/TutorialsNinja-API-Testing-Report
+cypress/fixtures/GoRest
+cypress/fixtures/tutorialsNinja
+cypress/screenshots
