@@ -11,7 +11,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=common/home`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseHomePage.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseHomePage.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -23,7 +23,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=product/product&path=57&product_id=49`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseSamsungGalaxyTab.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseSamsungGalaxyTab.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -35,7 +35,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=product/product&product_id=43`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMacbook.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseMacbook.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -47,7 +47,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=product/product&product_id=40`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseIPhone.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseIPhone.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -59,7 +59,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=product/product&product_id=42`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseAppleCinema30inch.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseAppleCinema30inch.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -71,7 +71,7 @@ describe("Home Page", () => {
       url: `${tutorialsNinjaUrl}?route=product/product&product_id=30`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseCannonEOS5D.html",
+        "cypress/fixtures/tutorialsNinja/Home Page/GetResponseCannonEOS5D.html",
         response.body
       );
       expect(response.status).to.eq(200);

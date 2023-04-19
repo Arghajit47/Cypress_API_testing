@@ -4,14 +4,14 @@ import properties from "../../_utils/properties/index";
 
 const tutorialsNinjaUrl = properties.tutorialsNinjaUrl;
 
-describe("Software", () => {
-  it("Get Software", () => {
+describe("Address", () => {
+  it("Get All Address", () => {
     cy.request({
       method: "GET",
-      url: `${tutorialsNinjaUrl}?route=product/category&path=17`,
+      url: `${tutorialsNinjaUrl}?route=account/address`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseSoftware.html",
+        "cypress/fixtures/tutorialsNinja/Address/GetResponseAllAddress.html",
         response.body
       );
       expect(response.status).to.eq(200);

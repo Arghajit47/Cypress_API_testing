@@ -14,14 +14,16 @@
     "reportPageTitle": "TutorialsNinja-API-Testing-Result"
   },
   "testFiles": [
-    "TutorialsNinja WebApp/GetHomePage.spec.js",
-    "TutorialsNinja WebApp/GetDesktop.spec.js",
-    "TutorialsNinja WebApp/GetLaptop.spec.js",
-    "TutorialsNinja WebApp/GetComponents.spec.js",
-    "TutorialsNinja WebApp/GetTablets.spec.js",
-    "TutorialsNinja WebApp/GetSoftware.spec.js",
-    "TutorialsNinja WebApp/GetCameras.spec.js",
-    "TutorialsNinja WebApp/GetMP3Players.spec.js",
-    "TutorialsNinja WebApp/GetAboutUs.spec.js"
+    "TutorialsNinja WebApp/HomePage.spec.js",
+    "TutorialsNinja WebApp/Desktop.spec.js",
+    "TutorialsNinja WebApp/Laptop.spec.js",
+    "TutorialsNinja WebApp/Components.spec.js",
+    "TutorialsNinja WebApp/Tablets.spec.js",
+    "TutorialsNinja WebApp/Software.spec.js",
+    "TutorialsNinja WebApp/Cameras.spec.js",
+    "TutorialsNinja WebApp/MP3Players.spec.js",
+    "TutorialsNinja WebApp/AboutUs.spec.js",
+    "TutorialsNinja WebApp/Brand.spec.js",
+    "TutorialsNinja WebApp/Address.spec.js"
   ]
 }

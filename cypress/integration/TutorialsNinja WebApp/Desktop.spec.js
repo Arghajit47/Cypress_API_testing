@@ -11,7 +11,7 @@ describe("Desktop", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=20`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseDesktopPage.html",
+        "cypress/fixtures/tutorialsNinja/Desktop/GetResponseDesktopPage.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -23,7 +23,7 @@ describe("Desktop", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=20_26`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseDesktopPC.html",
+        "cypress/fixtures/tutorialsNinja/Desktop/GetResponseDesktopPC.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -35,7 +35,7 @@ describe("Desktop", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=20_27`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseDesktopMAC.html",
+        "cypress/fixtures/tutorialsNinja/Desktop/GetResponseDesktopMAC.html",
         response.body
       );
       expect(response.status).to.eq(200);

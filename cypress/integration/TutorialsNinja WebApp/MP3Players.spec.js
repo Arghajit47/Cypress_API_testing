@@ -11,7 +11,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3Players.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3Players.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -23,7 +23,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_43`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest11.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest11.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -35,7 +35,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_44`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest12.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest12.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -47,7 +47,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_47`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest15.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest15.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -59,7 +59,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_48`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest16.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest16.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -71,7 +71,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_49`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest17.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest17.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -83,7 +83,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_50`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest18.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest18.html",
         response.body
       );
       expect(response.status).to.eq(200);
@@ -95,7 +95,7 @@ describe("MP3 Players", () => {
       url: `${tutorialsNinjaUrl}?route=product/category&path=34_51`,
     }).then((response) => {
       cy.writeFile(
-        "cypress/fixtures/tutorialsNinja/GetResponseMP3PlayersTest19.html",
+        "cypress/fixtures/tutorialsNinja/MP3 Players/GetResponseMP3PlayersTest19.html",
         response.body
       );
       expect(response.status).to.eq(200);
